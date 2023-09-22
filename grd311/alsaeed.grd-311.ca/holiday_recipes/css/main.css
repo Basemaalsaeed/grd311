@@ -1,4 +1,42 @@
-.feature-img {
-}
 .article-head {
+    letter-spacing: normal;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding-left: 0px;
+}
+.container {
+    width: 800px;
+    min-height: 800px;
+    background-color: rgba(219,200,173,1.00);
+    margin-left: auto;
+    margin-right: auto;
+}
+.container article {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+.container article div {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgba(210,154,99,1.00);
+    color: rgba(255,255,255,1.00);
+}
+.container article .box {
+    padding-left: 17px;
+    padding-right: 35px;
+}
+article div .feature-img {
+    padding-left: 0px;
+    padding-top: 0px;
+    margin-left: 29px;
+    margin-top: 38px;
+    border: 11px ridge rgba(237,220,199,1.00);
+}
+article div .article-head {
+    margin-left: 58px;
+    color: rgba(255,255,255,1.00);
+    text-shadow: 0 0 0;
 }
